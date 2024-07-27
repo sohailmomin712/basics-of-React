@@ -1,30 +1,29 @@
-import { useState } from "react";
 import Counter from "./components/counter";
-import CounterList from "./components/counter-list";
+import { useState } from "react";
+//1:first u will have to import the component//
+//and use the component inside the return(<counter/>)which is in app function//
+//2:then make a input tag
 
 const App = () => {
+  //3:set and update the color
+  //set and update the name
+  //set and update the list i.e array of object//
   const [color, setColor] = useState("");
   const [name, setName] = useState("");
   const [list, setList] = useState([]);
 
-  const styles = {
-    box: { border: "1px solid red", padding: "10px", margin: "auto" },
-  };
-
   return (
-    <div
-      style={{
-        display: "flex",
-      }}
-    >
-      <div style={styles.box}>
-        <CounterList list={list} />
-      </div>
-      <div style={styles.box}>
-        <input placeholder="name" />
-        <input placeholder="color" />
-        <br />
-        <button>submit</button>
+    <div>
+      <Counter />
+      <div
+        style={{
+          marginTop: "10px",
+          padding: "10px",
+          border: "2px solid blue",
+        }}
+      >
+        <input placeholder="enter name" />
+        <input placeholder="enter color" />
       </div>
     </div>
   );
