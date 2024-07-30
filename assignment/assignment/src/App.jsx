@@ -1,13 +1,10 @@
 import CardList from "./components/CardList";
+import './App.css'
 
 const App = () => {
-
-    
-
   return (
-    <div>
-      <CardList/>
-
+    <div className="container">
+      <CardList />
     </div>
   );
 };

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.card-list {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+}
+
+
+
+.gradient-box {
+    animation: 3s rotate linear infinite;
+    background: conic-gradient(from 0deg,
+            transparent 70%,
+            red,
+            blue,
+            yellow,
+            green,
+            aqua,
+            purple,
+            brown);
+    padding: 10px;
+    /* filter: blur(0.5); */
+}
+
+.card {
+    border: 1px solid gray;
+    display: flex;
+    background-color: #ebebeb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.card>div>h1 {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(199, 24, 24);
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */

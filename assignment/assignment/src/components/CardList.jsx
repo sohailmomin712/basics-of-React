@@ -14,7 +14,7 @@ const CardList = () => {
     {
       image: two,
       name: "Sufiyan",
-      skills: ["HTML", "NODE", "JS"],
+      skills: ["HTML", "NODE", "CLOUD"],
       isRounded: true,
     },
     {
@@ -26,7 +26,7 @@ const CardList = () => {
   ];
 
   return (
-    <div>
+    <div className="card-list">
       {userArr.map((el, ind) => {
         return (
           <Card
