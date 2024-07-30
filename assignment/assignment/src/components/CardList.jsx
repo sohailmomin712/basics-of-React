@@ -7,19 +7,19 @@ const CardList = () => {
   const userArr = [
     {
       image: one,
-      name: "azim",
+      name: "Aazim",
       skills: ["HTML", "CSS", "REACT"],
       isRounded: true,
     },
     {
       image: two,
-      name: "sufi",
+      name: "Sufiyan",
       skills: ["HTML", "NODE", "JS"],
       isRounded: true,
     },
     {
       image: three,
-      name: "sohail",
+      name: "Sohail",
       skills: ["JAVA", "PYTHON", "JQUERY"],
       isRounded: false,
     },
