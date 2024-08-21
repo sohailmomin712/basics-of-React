@@ -5,7 +5,7 @@ const Count = () => {
   const [nums, setNums] = useState(0);
   useEffect(()=>{
     alert("You have clicked on the button");
-  },[])
+  },[nums])
 
   return (
     <div>

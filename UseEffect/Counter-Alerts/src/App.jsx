@@ -1,4 +1,6 @@
-import Count from "./count";
+// import Count from "./count";
+
+import Profile from "./profile";
 
 const App = () => {
   return (
@@ -8,7 +10,8 @@ const App = () => {
         flexDirection: "column",
       }}
     >
-      <Count />
+      {/* <Count /> */}
+      <Profile/>
     </div>
   );
 };
