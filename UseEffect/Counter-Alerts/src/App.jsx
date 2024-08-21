@@ -1,5 +1,5 @@
 // import Count from "./count";
-
+import "./App.css";
 import Profile from "./profile";
 
 const App = () => {

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 const Profile = () => {
   const [products, setProducts] = useState([]);
-
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then((res) => res.json())
@@ -10,50 +9,15 @@ const Profile = () => {
   }, []);
 
   return (
-    <div>
-      <h1>All Products</h1>
+    <div className="Main-container">
+      <h1>List Of Products</h1>
 
-      <div
-        className="products-container"
-        style={{
-          border: "1px solid",
-          padding: "10px",
-          display: "grid",
-          gridTemplateColumns: "repeat(4,1fr)",
-        }}
-      >
+      <div className="product-container">
         {products.map((product, index) => (
-          <div
-            key={index}
-            style={{
-              border: "1px solid",
-              padding: "10px",
-            }}
-          >
-            <img src={product.image} width={"100%"} />
-            <h3 style={{ fontSize: "20px", textAlign: "center" }}>
-              {product.title}
-            </h3>
-            <p
-              style={{ color: "black", fontSize: "15px", textAlign: "center" }}
-            >
-              {product.price}
-            </p>
-            <p
-              style={{ color: "black", fontSize: "14px", textAlign: "center" }}
-            >
-              {product.description}
-            </p>
-            <p
-              style={{
-                color: "white",
-                fontSize: "14px",
-                textAlign: "center",
-                backgroundColor: "black",
-              }}
-            >
-              {product.category}
-            </p>
+          <div key={index}>
+            <img src={product.image} width={"100px"} />
+            <p className="category">{product.category}</p>
+            <p className="price">{product.price}</p>
           </div>
         ))}
       </div>
@@ -75,3 +39,62 @@ export default Profile;
 //       "count": 120
 //   }
 // }
+
+// const [products, setProducts] = useState([]);
+
+//   useEffect(() => {
+//     fetch("https://fakestoreapi.com/products")
+//       .then((res) => res.json())
+//       .then((res) => setProducts(res));
+//   }, []);
+
+//   return (
+//     <div>
+//       <h1>All Products</h1>
+
+//       <div
+//         className="products-container"
+//         style={{
+//           border: "1px solid",
+//           padding: "10px",
+//           display: "grid",
+//           gridTemplateColumns: "repeat(4,1fr)",
+//         }}
+//       >
+//         {products.map((product, index) => (
+//           <div
+//             key={index}
+//             style={{
+//               border: "1px solid",
+//               padding: "10px",
+//             }}
+//           >
+//             <img src={product.image} width={"100%"} />
+//             <h3 style={{ fontSize: "20px", textAlign: "center" }}>
+//               {product.title}
+//             </h3>
+//             <p
+//               style={{ color: "black", fontSize: "15px", textAlign: "center" }}
+//             >
+//               {product.price}
+//             </p>
+//             <p
+//               style={{ color: "black", fontSize: "14px", textAlign: "center" }}
+//             >
+//               {product.description}
+//             </p>
+//             <p
+//               style={{
+//                 color: "white",
+//                 fontSize: "14px",
+//                 textAlign: "center",
+//                 backgroundColor: "black",
+//               }}
+//             >
+//               {product.category}
+//             </p>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
