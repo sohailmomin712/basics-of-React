@@ -2,18 +2,37 @@ import { useEffect, useState } from "react";
 
 const Profile = () => {
   const [products, setProducts] = useState([]);
+
+  
+  // const getProductData = ()=> {
+  //   fetch("https://fakestoreapi.com/products")
+  //   .then((res) => res.json())
+  //   .then((res) => setProducts(res));
+  // }
+
+  const getProductData = async ()=> {
+   const promise = await fetch("https://fakestoreapi.com/products");
+   const res = await promise.json()
+   setProducts(res)
+  }
+
+  // async function  getData (){
+
+  // }
+
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
-      .then((res) => res.json())
-      .then((res) => setProducts(res));
+    getProductData()
   }, []);
+
+
+
 
   return (
     <div className="Main-container">
       <h1>List Of Products</h1>
 
       <div className="product-container">
-        {products.map((product, index) => (
+        { products?.map((product, index) => (
           <div key={index}>
             <img src={product.image} width={"100px"} />
             <p className="category">{product.category}</p>
