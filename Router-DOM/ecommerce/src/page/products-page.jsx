@@ -17,7 +17,7 @@ const Products = () => {
     <div className="Main-container">
       <h2>List of All Products</h2>
       <div className="product-container">
-        {products.map((product, index) => {
+        {products?.map((product, index) => {
           return (
             <div key={index}>
               <img src={product.image}width={"100px"} />

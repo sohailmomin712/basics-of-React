@@ -1,13 +1,11 @@
-import Counter from "./page/counter-page";
-import Products from "./page/products-page";
+import Navbar from "./components/navbar";
+import EcomRoutes from "./routes/ecom-routes";
 
 const App = () => {
   return (
     <div>
-      <Counter/>
-      <div style={{marginTop:"15px"}}>
-      <Products/>
-      </div>
+    <Navbar/>
+    <EcomRoutes/>
     </div>
   );
 };

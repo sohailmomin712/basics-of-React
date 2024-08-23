@@ -1,9 +1,11 @@
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <p style={{ fontSize: "20px", background: "black", color: "white",marginTop:'20px' }}>
+        Welcome to Home Page
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
