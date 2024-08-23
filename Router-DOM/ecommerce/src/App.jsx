@@ -3,9 +3,11 @@ import EcomRoutes from "./routes/ecom-routes";
 
 const App = () => {
   return (
-    <div>
-    <Navbar/>
-    <EcomRoutes/>
+    <div className="app">
+      <Navbar />
+      <div className="container">
+        <EcomRoutes />
+      </div>
     </div>
   );
 };

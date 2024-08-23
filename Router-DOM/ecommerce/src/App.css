@@ -4,6 +4,43 @@
   box-sizing: border-box;
 }
 
+
+.app {
+  border: 1px solid;
+
+
+
+  height: 100dvh;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background: black;
+
+  padding: 20px;
+
+  height: 10dvh;
+}
+
+.container {
+  border: 1px solid;
+  padding: 20px;
+
+  height: 90dvh;
+
+
+}
+
+.nav>a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
 .Main-container>h1 {
   padding: 10px;
   background: black;
@@ -18,7 +55,13 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   border: 1px solid;
-  padding: 10px;
+
+  height: 75dvh;
+  /* max-height: 75dvh; */
+
+  overflow-y: auto;
+
+
 }
 
 .product-container>div {
@@ -40,16 +83,4 @@
   background: black;
   color: white;
 
-}
-
-.nav {
-  display: flex;
-  width: 100%;
-  background: black;
-  gap: 10px;
-}
-
-.nav>a {
-  color: white;
-  text-decoration: none;
 }
