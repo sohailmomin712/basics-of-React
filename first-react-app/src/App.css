@@ -16,16 +16,13 @@
   justify-content: space-evenly;
   width: 100%;
   background: black;
-
   padding: 20px;
-
   height: 10dvh;
 }
 
 .container {
   border: 1px solid;
   padding: 20px;
-
   height: 90dvh;
 
 
@@ -38,7 +35,7 @@
 
 
 
-.Main-container>h1 {
+.main-container>h1 {
   padding: 10px;
   background: black;
   color: white;

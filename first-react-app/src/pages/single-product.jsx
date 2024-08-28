@@ -118,7 +118,4 @@ const SingleProductPage = () => {
 
 export default SingleProductPage;
 
-// let isError = false;
 
-// console.log(false == false)
-// //  true
