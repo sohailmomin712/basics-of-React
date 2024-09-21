@@ -1,0 +1,51 @@
+pages
+
+ / landing page
+ / mobile skins
+ / laptop skins
+ /single product page
+ /account login
+ /sign up
+ /cart
+ /payment page
+ /profile page user/admin
+
+
+/find my device page with api
+
+
+components
+
+common
+1 navbar
+2 footer
+3 breadcumb
+4 chat bot
+
+
+
+landing page
+2 slider
+2 brands list
+3 Best Selling Mobile Skins
+4 services
+
+product page >>> 
+1 brand names (select your brand page)
+
+when we click on the product page we go to the /select-mobile-brand page once we have selected brand then we go to the /collection/{brand}
+then when we click on the model we can see the collection cases of that particular phone
+
+functionality
+if the user is not logged in and is adding a product to the cart user should be redirected to login page
+
+
+
+login page
+
+
+https://www.layers.shop/products/galaxy-s24-ultra-purple-river
+
+
+
+
