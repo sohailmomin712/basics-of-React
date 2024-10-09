@@ -1,12 +1,13 @@
 // import Student from "./pages/Student";
 // import Form from "./pages/Form";
 // import Hideshow from "./pages/Hideshow";
+// import User from "./pages/User";
+// import Counter from "./pages/Counter";
 
-import User from "./pages/User";
+// const getData = () => {
+//   alert("Hello from App");
+// };
 
-const getData = () => {
-  alert("Hello from App");
-};
 const App = () => {
   //   const [name,setName]=useState("sohail")
   //   const [inputValues, setInputValues] = useState(null);
@@ -49,9 +50,15 @@ const App = () => {
     //   {/* <Form /> */}
     // </div>
 
-    <div className="user">
-    {/* sending function as a props */}
-      <User data ={getData} />
+    // <div className="user">
+    // {/* sending function as a props */}
+    //   <User data ={getData} />
+    // </div>
+
+    <div>
+      {/* <Counter /> */}
+    
+
     </div>
   );
 };
