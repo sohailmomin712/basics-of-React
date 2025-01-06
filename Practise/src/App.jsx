@@ -3,6 +3,8 @@
 // import Hideshow from "./pages/Hideshow";
 // import User from "./pages/User";
 // import Counter from "./pages/Counter";
+import './App.css'
+import Styling from "./pages/Styling";
 
 // const getData = () => {
 //   alert("Hello from App");
@@ -57,7 +59,7 @@ const App = () => {
 
     <div>
       {/* <Counter /> */}
-    
+    <Styling/>
 
     </div>
   );
