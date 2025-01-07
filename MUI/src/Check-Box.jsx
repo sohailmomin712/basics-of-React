@@ -2,7 +2,7 @@ import { Favorite, FavoriteBorder } from "@mui/icons-material";
 import { Checkbox } from "@mui/material";
 import { useState } from "react";
 const CheckBox = () => {
-  const [value, setValue] = useState([]);
+  const [value] = useState([]);
   const GetValue = (e) => {
     const data = value;
     data.push(e.target.value);
