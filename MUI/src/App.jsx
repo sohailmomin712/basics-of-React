@@ -1,6 +1,7 @@
 import Buttons from "./Buttons";
 import CheckBox from "./Check-Box";
 import BtnGroup from "./components/BtnGroup";
+import RadioBtn from "./RadioBtn";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Buttons />
       <BtnGroup />
       <CheckBox />
+      <RadioBtn/>
     </div>
   );
 };
