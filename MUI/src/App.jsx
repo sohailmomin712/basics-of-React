@@ -4,7 +4,8 @@
 // import AuthPage from "./Login";
 // import RadioBtn from "./RadioBtn";
 
-import Sliders from "./components/slider";
+import RangeSlider from "./components/Range-Slider";
+// import Sliders from "./components/slider";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       <CheckBox />
       <RadioBtn/>
       <AuthPage/> */}
-      <Sliders/>
+      {/* <Sliders/> */}
+      <RangeSlider/>
     </div>
   );
 };
