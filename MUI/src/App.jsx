@@ -3,9 +3,10 @@
 // import BtnGroup from "./components/BtnGroup";
 // import AuthPage from "./Login";
 // import RadioBtn from "./RadioBtn";
-
-import RangeSlider from "./components/Range-Slider";
+// import RangeSlider from "./components/Range-Slider";
 // import Sliders from "./components/slider";
+
+import SelectBox from "./components/Select-Box";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       <RadioBtn/>
       <AuthPage/> */}
       {/* <Sliders/> */}
-      <RangeSlider/>
+      {/* <RangeSlider/> */}
+      <SelectBox/>
     </div>
   );
 };
