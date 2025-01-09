@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import { Delete } from "@mui/icons-material";
 import { useState } from "react";
 const Buttons = () => {
-  const [color, setColor] = useState("primary");
+  const [color, setColor] = useState("secondary");
   //   const [disableBtn, setDisableBtn] = useState(false);
 
   const CustomiseBtn = () => {
