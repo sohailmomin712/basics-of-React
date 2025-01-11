@@ -6,7 +6,9 @@
 // import RangeSlider from "./components/Range-Slider";
 // import Sliders from "./components/slider";
 
-import SelectBox from "./components/Select-Box";
+import TextFieldMui from "./components/TextField-Mui";
+
+// import SelectBox from "./components/Select-Box";
 
 const App = () => {
   return (
@@ -15,10 +17,11 @@ const App = () => {
       <BtnGroup />
       <CheckBox />
       <RadioBtn/>
-      <AuthPage/> */}
-      {/* <Sliders/> */}
-      {/* <RangeSlider/> */}
-      <SelectBox/>
+    <AuthPage/> 
+      <Sliders/>
+      <RangeSlider/>
+      <SelectBox /> */}
+      <TextFieldMui/>
     </div>
   );
 };
