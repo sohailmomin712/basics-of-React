@@ -5,7 +5,9 @@
 // import RadioBtn from "./RadioBtn";
 // import RangeSlider from "./components/Range-Slider";
 // import Sliders from "./components/slider";
-import SwitchMUi from "./components/Switch-Mui";
+// import BoxMui from "./Box-Mui";
+// import SwitchMUi from "./components/Switch-Mui";
+import ContainerMui from "./Container-Mui";
 // import TextFieldMui from "./components/TextField-Mui";
 // import SelectBox from "./components/Select-Box";
 
@@ -21,7 +23,9 @@ const App = () => {
       <RangeSlider/>
       <SelectBox /> */}
       {/* <TextFieldMui/> */}
-      <SwitchMUi/>
+      {/* <SwitchMUi/>
+      <BoxMui/> */}
+      <ContainerMui/>
     </div>
   );
 };
