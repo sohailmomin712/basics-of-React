@@ -7,9 +7,13 @@
 // import Sliders from "./components/slider";
 // import BoxMui from "./Box-Mui";
 // import SwitchMUi from "./components/Switch-Mui";
-import ContainerMui from "./Container-Mui";
+// import ContainerMui from "./Container-Mui";
+// import GridMui from "./Grid-Mui";
 // import TextFieldMui from "./components/TextField-Mui";
 // import SelectBox from "./components/Select-Box";
+
+// import Nav from "./nav";
+import Navbar from "./Navbar";
 
 const App = () => {
   return (
@@ -17,15 +21,18 @@ const App = () => {
       {/* <Buttons />
       <BtnGroup />
       <CheckBox />
-      <RadioBtn/>
-    <AuthPage/> 
-      <Sliders/>
-      <RangeSlider/>
-      <SelectBox /> */}
-      {/* <TextFieldMui/> */}
-      {/* <SwitchMUi/>
-      <BoxMui/> */}
-      <ContainerMui/>
+      <RadioBtn />
+      <AuthPage />
+      <Sliders />
+      <RangeSlider />
+      <SelectBox />
+      <TextFieldMui />
+      <SwitchMUi />
+      <BoxMui />
+      <ContainerMui />
+      <GridMui /> */}
+      {/* <Nav /> */}
+      <Navbar/>
     </div>
   );
 };
