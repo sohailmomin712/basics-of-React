@@ -13,7 +13,8 @@
 // import SelectBox from "./components/Select-Box";
 
 // import Nav from "./nav";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
+import Test from "./test";
 
 const App = () => {
   return (
@@ -22,7 +23,6 @@ const App = () => {
       <BtnGroup />
       <CheckBox />
       <RadioBtn />
-      <AuthPage />
       <Sliders />
       <RangeSlider />
       <SelectBox />
@@ -32,7 +32,9 @@ const App = () => {
       <ContainerMui />
       <GridMui /> */}
       {/* <Nav /> */}
-      <Navbar/>
+      {/* <Navbar/> */}
+      <Test/>
+      {/* <AuthPage /> */}
     </div>
   );
 };
